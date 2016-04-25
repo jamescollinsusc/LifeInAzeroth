@@ -10,8 +10,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="fanative.com.lifeinazeroth.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context=".ui.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@android:color/white">
 
     <ImageView
         android:layout_width="match_parent"
@@ -32,7 +33,9 @@
         android:id="@+id/startAdventureButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:textColor="#FF3A8AEC"/>
 
     <EditText
         android:layout_width="match_parent"

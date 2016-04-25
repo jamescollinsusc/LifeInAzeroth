@@ -2,4 +2,8 @@
     <string name="app_name">Life in Azeroth</string>
     <string name="action_settings">Settings</string>
     <string name="signals">Signals from Mars</string>
+    <string name="nameMessage">Your name</string>
+    <string name="nameEdit">Enter your name to begin</string>
+    <string name="enterName">Enter your name</string>
+    <string name="startAdventure">Start your adventure!</string>
 </resources>

@@ -8,4 +8,6 @@
     <string name="startAdventure">Start your adventure!</string>
     <string name="title_activity_story_one">StoryOneActivity</string>
     <string name="scrublord">Wassup Scrublord</string>
+    <string name="key_name">name</string>string>
+
 </resources>

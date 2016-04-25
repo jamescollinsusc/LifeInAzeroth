@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void startStory(String name){
         Intent intent = new Intent(this, StoryOneActivity.class);
-        intent.putExtra("name", name);
+        intent.putExtra(getString(R.string.key_name), name);
         startActivity(intent);
     }
 

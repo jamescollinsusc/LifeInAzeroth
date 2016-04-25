@@ -6,4 +6,6 @@
     <string name="nameEdit">Enter your name to begin</string>
     <string name="enterName">Enter your name</string>
     <string name="startAdventure">Start your adventure!</string>
+    <string name="title_activity_story_one">StoryOneActivity</string>
+    <string name="scrublord">Wassup Scrublord</string>
 </resources>

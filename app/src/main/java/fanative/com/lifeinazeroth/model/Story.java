@@ -8,7 +8,7 @@ public class Story {
         mPages = new Page[7];
         mPages[0] = new Page(
                 R.drawable.page0,
-                "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \\\"Help me, %1$s, you're my only hope.\\\"",
+                "On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years. Even stranger, it's calling you by name: \"Help me, %1$s, you're my only hope.\"",
                 new Choice("Stop and investigate", 1),
                 new Choice("Continue home to Earth", 2));
         mPages[1] = new Page(
@@ -37,5 +37,9 @@ public class Story {
         mPages[6] = new Page(
                 R.drawable.page6,
                 "You arrive home on Earth. While your mission was a success, you forever wonder what was sending that signal. Perhaps a future mission will be able to investigate...");
+    }
+
+    public Page getPage(int pageNumber){
+        return mPages[pageNumber];
     }
 }
